@@ -1,0 +1,83 @@
+
+ .para{
+    height: 35vh;
+    position: absolute;
+    max-width: 35vw;
+    font-size: 5vh;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-left: 45vw;
+    margin-top: 15vh;
+ }
+ .para-color{
+    color: #585bc3;
+ }
+ .side-image{
+    min-width: 30vw;
+    height: 50vh;
+   
+    background-image: url('../images/homepage/side.png');
+    margin-left: 10vw;
+    margin-top: 5vh;
+    background-repeat: no-repeat;
+ }
+ .demo-classes-para{
+    margin-top: 10vh;
+    font-size: 2.5rem;
+    font-family: system-ui;
+    font-weight: 700;
+    text-align: center;
+
+ }
+ .demo-classes{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100vw;
+    height: 40vh;
+    margin-top: 2vh;
+    background-color: #585bc3;
+ }
+ .demo-classes-items{
+    border-radius: 2vh;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 20vw;
+    height: 33vh;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    
+ }
+ .demo-img{
+    width: 20vw;
+    height: 29vh;
+    background-position: center;    
+ }
+ @media all and (max-width:500px) {
+
+    .para{
+        position: relative;
+        margin: 8vh auto;
+        min-width: 60vw;
+    }
+    .demo-classes{
+        height: 135vh;
+        flex-direction: column;
+    }
+    .side-image{
+        margin: auto;
+    }
+    .demo-classes-items{
+      
+    width: 60vw;
+    
+    
+}
+#login{
+   margin-left: 40vw;
+}
+    }
+ 

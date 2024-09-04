@@ -1,0 +1,20 @@
+{
+  "name": "institute-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zoom/meetingsdk": "^3.8.5",
+    "body-parser": "^2.0.0-beta.2",
+    "ejs": "^3.1.10",
+    "express": "^5.0.0-beta.3",
+    "mysql2": "^3.11.0"
+  }
+}
