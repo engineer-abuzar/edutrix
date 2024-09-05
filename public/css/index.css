@@ -33,29 +33,35 @@
 
     display: flex;
     justify-content: space-around;
-    align-items: center;
+ 
 
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
     margin-top: 2vh;
     background-color: #585bc3;
  }
  .demo-classes-items{
-    border-radius: 2vh;
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
-    width: 20vw;
-    height: 33vh;
-    background-color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-    
- }
+   border-radius: 2vh;
+   
+   width: 17vw;
+   height: 29vh;
+   background-color: white;
+   
+   font-weight: bold;
+   font-size: large;
+margin-top: 2vh;
+   
+}
  .demo-img{
-    width: 20vw;
-    height: 29vh;
-    background-position: center;    
- }
+   width: 17vw;
+   height: 29vh;
+   background-position: center;  
+   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);  
+}
+ #course-para{
+   font-size: medium;
+   font-weight: 400;
+}
  @media all and (max-width:500px) {
 
     .para{
