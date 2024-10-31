@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Document</title>
+</head>
+<body><h1>Login</h1>
+    <form action="/login/teacher" method="post">
+
+        <div class="main">
+            
+            <div class="select-user">
+                <input type="radio" name="user-selection" value="Student" id="op2" style="display: none;" checked><label
+                    for="op2" class="select-user-label" style="border-left: .5px solid grey;" >Student</label>
+          
+                <input type="radio" name="user-selection" value="Teacher" id="op1" style="display: none;"><label
+                    for="op1" class="select-user-label" style="border-right: .5px solid grey;">Teacher</label>
+                  </div>
+            <ul class="container">
+              
+                <li><label for="email">Email</label>
+                    <input type="email" name="email" style="margin-left:9.4vh ;">
+                </li>
+              
+                <li><label for="password">Passowrd</label>
+                    <input type="password" name="password" style="margin-left:4vh ;">
+                </li>
+            </ul>
+            <p><%=data%></p>
+            <button type="submit" >Login</button>
+            <p style="margin-top: 1vh;">Click here to <a href="/registration">register.</a></p>
+        </div>
+    </form>
+
+</body>
+</html>

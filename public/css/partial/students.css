@@ -1,0 +1,23 @@
+table{
+    max-width: 65vw;
+    border-collapse: collapse;
+    margin-top: 2vh;
+}
+td{
+    padding: 2vh 4vw;
+    font-size: large;
+    border-bottom: .5px solid rgb(193, 193, 193)
+}
+th{
+    height: 7vh;
+    background-color: rgb(226, 226, 226);
+    font-size: larger;
+}
+td button{
+    background-color: rgb(249, 73, 73);
+    border: none;
+    color: white;
+    height: 5vh;
+    width: 5vw;
+    border-radius: 1vh;
+}

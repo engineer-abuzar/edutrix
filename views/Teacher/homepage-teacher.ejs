@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/partial/teacher_info.css">
+    <link rel="stylesheet" href="/css/partial/header-login.css">
+    <link rel="stylesheet" href="/css/partial/course-box-teacher.css">
+    <link rel="stylesheet" href="/css/partial/homepage-teacher.css">
+    <link rel="stylesheet" href="/css/partial/course-management.css">
+    <link rel="stylesheet" href="/css/partial/students.css">
+    <script src="https://kit.fontawesome.com/f7adefa290.js" crossorigin="anonymous"></script>
+ 
+    <title>Document</title>
+</head>
+<body>
+    <%-include('../common/header-login')%>
+   
+    <div class="homepage-container">
+        <div class="homepage-item"><%-include('../teacher/teacher_info')%></div>
+        
+        <div class="homepage-item"><%-include('../Teacher/course-box-teacher')%></div>
+        
+    </div>
+    <script src="/js/teacher-frontend.js"></script>
+</body>
+</html>

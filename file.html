@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .section-container {
+            width: 48vw;
+            display: flex;
+            gap: 1vh;
+            flex-direction: column;
+        }
+
+        .section {
+            width: 100%;
+            min-height: 12vh;
+            padding-top: 2vh;
+            padding-left: 2vh;
+            background-color: rgb(245, 245, 245);
+            border: 1px solid grey;
+        }
+
+        .para {
+            font-weight: bolder;
+            font-size: 1.2rem;
+
+        }
+
+        input {
+            width: 82%;
+            height: 3vh;
+            border: 1px solid rgb(53, 53, 53);
+        }
+
+        .new-section-input:hover {
+            border: 1px solid rgb(53, 53, 53);
+        }
+
+        .button {
+            margin-top: 1vh;
+            width: 7vw;
+            height: 4.5vh;
+            font-weight: bold;
+        }
+
+        .button1 {
+            margin-left: 68.5vh;
+            background-color: unset;
+            border: none;
+        }
+
+        .button2 {
+            background-color: black;
+            color: white;
+        }
+
+        .sub-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .curriculam {
+            padding: 2vh;
+          margin: 2vh 0 2vh 5vh;
+            width: 89%;
+            border: 1px solid grey;
+            height: 50%;
+        }
+        .add-curriculam{
+            margin-top: 2vh;
+            background-color: unset;
+            border: 1px solid grey;
+            display: block;
+            width: 9vw;
+            height: 5vh;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section-container">
+        <button class="button add-section-button">Add Section</button>
+        <!-- <div class="section">
+            <span class="new-section-para para">Section: introduction</span>
+            <div class="sub-section">
+                <div class="curriculam">
+                    <span>New Lecture: </span><input type="text">
+                    <button class="button button1" style="margin-left: 58.5vh;">Cancel</button>
+                    <button class="button button2">Add lecture</button>
+                </div>
+            </div> 
+        </div> -->
+
+
+    </div>
+    <script src="file.js"></script>
+</body>
+
+</html>

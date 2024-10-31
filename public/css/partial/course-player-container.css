@@ -1,0 +1,14 @@
+
+.course-player-container{
+    display: flex;
+    gap: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+.Vplayer{
+    width: 65vw;
+    height: 80vh;
+}
+.course-accordion-para{
+    height: 5vh;
+}

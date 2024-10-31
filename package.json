@@ -14,7 +14,9 @@
     "@zoom/meetingsdk": "^3.8.5",
     "body-parser": "^2.0.0-beta.2",
     "ejs": "^3.1.10",
-    "express": "^5.0.0-beta.3",
-    "mysql2": "^3.11.0"
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.7"
   }
 }

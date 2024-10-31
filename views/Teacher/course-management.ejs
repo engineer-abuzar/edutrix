@@ -1,0 +1,20 @@
+
+   <Table>
+    <tr>
+        
+        <th>Course Name</th>
+        <th>Description</th>
+        <th>Uploded Date</th>
+        <th>Action</th>
+    </tr>
+    <%data.forEach(element=>{%>
+        <tr>
+            <td><%=element.c_name%></td>
+            <td><%=element.c_description%></td>
+            <td><%=element.join_date%></td>
+            <td><Button>Remove</Button></td>
+        </tr>
+   <% })%>
+  
+   
+   </Table>

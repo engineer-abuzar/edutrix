@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/partial/user_info.css">
+    <link rel="stylesheet" href="/css/partial/header-login.css">
+    <link rel="stylesheet" href="/css/partial/course-box-user.css">
+    <link rel="stylesheet" href="/css/partial/homepage-user.css">
+    <script src="https://kit.fontawesome.com/f7adefa290.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <%-include('../common/header-login')%>
+    <div class="homepage-container">
+        <div class="homepage-item"><%-include('../user/user_info')%></div>
+        
+        <div class="homepage-item"><%-include('../user/course-box-user')%></div>
+        
+    </div>
+    
+
+</body>
+</html>

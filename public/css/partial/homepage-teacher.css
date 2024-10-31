@@ -1,0 +1,30 @@
+.homepage-container{
+    display: flex;
+    gap: 1vw;
+    
+}
+h1{
+    visibility: hidden;
+}
+h1::before{
+    visibility: visible;
+    content: "Welcome our Instructor";
+   text-align: center;
+   
+}
+.add_course{
+    position: absolute;
+    top: 53vh;
+    left: 1.5vw;
+}
+.add-btn{
+    display: none;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    height: 5vh;
+    width: 7vw;
+    color: white;
+    background-color: #2a8b44;
+    border: none;
+    border-radius: 1vh;
+}

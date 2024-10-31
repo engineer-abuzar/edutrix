@@ -1,0 +1,67 @@
+
+ .para{
+    height: 35vh;
+    position: absolute;
+    max-width: 35vw;
+    font-size: 5vh;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin-left: 45vw;
+    margin-top: 15vh;
+ }
+ .para-color{
+    color: #585bc3;
+ }
+ .side-image{
+    min-width: 30vw;
+    height: 50vh;
+   
+    background-image: url('../images/homepage/side.png');
+    margin-left: 10vw;
+    margin-top: 5vh;
+    background-repeat: no-repeat;
+ }
+ .demo-classes-para{
+    margin-top: 10vh;
+    font-size: 2.5rem;
+    font-family: system-ui;
+    font-weight: 700;
+    text-align: center;
+
+ }
+h1{
+   display: none;
+}
+.course-container{
+   justify-content: center;
+  min-width: 98.5vw;
+}
+ #course-para{
+   font-size: medium;
+   font-weight: 400;
+}
+ @media all and (max-width:500px) {
+
+    .para{
+        position: relative;
+        margin: 8vh auto;
+        min-width: 60vw;
+    }
+    .demo-classes{
+        height: 135vh;
+        flex-direction: column;
+    }
+    .side-image{
+        margin: auto;
+    }
+    .demo-classes-items{
+      
+    width: 60vw;
+    
+    
+}
+#login{
+   margin-left: 40vw;
+}
+    }
+ 

@@ -3,6 +3,6 @@ const db=mysql.createPool({
     host:'localhost',
     user:'root',
     password:'husna34',
-    database:"employee"
+    database:"web_app"
 })
 export default db;

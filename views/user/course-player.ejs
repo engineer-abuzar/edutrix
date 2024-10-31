@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/partial/course-player-accordion.css">
+    <link rel="stylesheet" href="/css/partial/course-player-container.css">
+    <link rel="stylesheet" href="/css/partial/header-login.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <%-include('../common/header-login')%>
+    <div class="course-player-container">
+    <%- include('course-player-accordion')%>
+<video class="Vplayer" src="/file2.mp4" controls></video>
+</div>
+<script src="/js/course-player-accordion.js"></script>
+
+</body>
+</html>

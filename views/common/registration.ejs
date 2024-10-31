@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registration.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registration</h1>
+    <form action="/registration/submit" method="POST">
+        <div class="main">
+            <div class="select-user">
+                <input type="radio" name="user-selection" value="Student" id="op2" style="display: none;" checked><label
+                    for="op2" class="select-user-label" style="border-left: .5px solid grey;" >Student</label>
+          
+                <input type="radio" name="user-selection" value="Teacher" id="op1" style="display: none;"><label
+                    for="op1" class="select-user-label" style="border-right: .5px solid grey;">Teacher</label>
+                  </div>
+            <ul class="container">
+                <li><label for="name">Name</label>
+                    <input class="input-form" type="text" name="name" style="margin-left:8vh ;" required>
+                </li>
+                <li><label for="email">Email</label>
+                    <input class="input-form" type="email" name="email" style="margin-left:8vh ;" required>
+                </li>
+                <li><label for="password">Password</label>
+                    <input class="input-form" type="password" name="password" style="margin-left:2.6vh ;" required>
+                </li>
+                <li><label for="mobile">Mobile</label>
+                    <input class="input-form" type="number" name="mobile" style="margin-left:5vh ;" required>
+                </li>
+                
+            </ul>
+            <p id="error"><%=error%></p>
+            <button type="submit" class="submit">Join Now</button>
+            <p style="margin-top: 1vh;">click here to <a href="/login">Login.</a></p>
+        </div>
+    </form>
+    
+    <script src="/js/homepage.js"></script>
+</body>
+
+</html>
